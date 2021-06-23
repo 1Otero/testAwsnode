@@ -8,6 +8,7 @@ const server=http.createServer((req,res)=>{
 
 const app = express();
 
+console.log("las mejoressssss")
 app.get("/",(req,res)=>{ res.send("lollll wlcome a up level")})
 
 app.get("/lol",(req,res)=>{res.send("lollll con express")})
