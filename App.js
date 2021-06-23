@@ -9,6 +9,9 @@ const server=http.createServer((req,res)=>{
 const app = express();
 
 app.get("/",(req,res)=>{ res.send("lollll wlcome a up level")})
+
+app.get("/lol",(req,res)=>{res.send("lollll con express")})
+
 app.listen({port: 3000},()=>{
     console.log("lol listen in port 3000")
 })
